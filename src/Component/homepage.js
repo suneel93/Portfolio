@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl'; 
 import Suneel from '../suneel.png';
-class Landing extends Component{
+class Homepage extends Component{
     render(){
         return(
              <div style={{width: '100%',margin: 'auto'}}>
@@ -42,4 +42,4 @@ class Landing extends Component{
     }
 }
 
-export default Landing;
+export default Homepage;
